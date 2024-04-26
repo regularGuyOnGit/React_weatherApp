@@ -1,0 +1,186 @@
+@media (max-width: 480px) {
+  .inputField {
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.5rem;
+  }
+  form > input {
+    padding: 0.1rem 0.8rem;
+    font-family: var(--teko);
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: var(--dark);
+    width: 12rem;
+    border: none;
+    border-radius: 0.8rem;
+    opacity: 0.7;
+  }
+  form > input:focus-visible {
+    outline: 2px solid silver;
+  }
+
+  input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    height: 1em;
+    width: 1.2em;
+    border-radius: 50em;
+    background: url(https://pro.fontawesome.com/releases/v5.10.0/svgs/solid/times-circle.svg)
+      no-repeat 50% 50%;
+    background-size: contain;
+    opacity: 0.3;
+    pointer-events: none;
+  }
+
+  input[type="search"]:focus::-webkit-search-cancel-button {
+    opacity: 0.3;
+    pointer-events: all;
+  }
+
+  input[type="search"].dark::-webkit-search-cancel-button {
+    filter: invert(1);
+  }
+
+  .inputField > form > button {
+    padding: 0.3rem;
+    border: none;
+    background: none;
+    font-size: 1.3rem;
+    /* border: 1px solid; */
+    margin-left: 0.3rem;
+    font-weight: bold;
+    border-radius: 20rem;
+  }
+  .inputField > form > button :active {
+    transition: 0.1s transform ease-in;
+    transform: scale(0.7);
+  }
+  .inputField > form > button:hover {
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 700px) {
+  .inputField {
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+  }
+  form > input {
+    padding: 0.1rem 0.8rem;
+    font-family: var(--teko);
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: var(--dark);
+    width: 14rem;
+    border: none;
+    border-radius: 0.8rem;
+    opacity: 0.7;
+  }
+  form > input:focus-visible {
+    outline: 3px solid silver;
+  }
+
+  input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    height: 1.1em;
+    width: 1.3em;
+    border-radius: 50em;
+    background: url(https://pro.fontawesome.com/releases/v5.10.0/svgs/solid/times-circle.svg)
+      no-repeat 50% 50%;
+    background-size: contain;
+    opacity: 0.3;
+    pointer-events: none;
+  }
+
+  input[type="search"]:focus::-webkit-search-cancel-button {
+    opacity: 0.3;
+    pointer-events: all;
+  }
+
+  input[type="search"].dark::-webkit-search-cancel-button {
+    filter: invert(1);
+  }
+
+  .inputField > form > button {
+    padding: 0.3rem;
+    border: none;
+    background: none;
+    font-size: 1.3rem;
+    /* border: 1px solid; */
+    margin-left: 0.3rem;
+    font-weight: bold;
+  }
+  .inputField > form > button :active {
+    transition: 0.1s transform ease-in;
+    transform: scale(0.7);
+  }
+  .inputField > form > button:hover {
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 1200px) {
+  .inputField {
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+  }
+  form > input {
+    padding: 0.2rem 1rem;
+    font-family: var(--teko);
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: var(--dark);
+    width: 16rem;
+    border: none;
+    border-radius: 1rem;
+    opacity: 0.7;
+  }
+  form > input:focus-visible {
+    outline: 3px solid silver;
+  }
+
+  input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    height: 1.1em;
+    width: 1.3em;
+    border-radius: 50em;
+    background: url(https://pro.fontawesome.com/releases/v5.10.0/svgs/solid/times-circle.svg)
+      no-repeat 50% 50%;
+    background-size: contain;
+    opacity: 0.3;
+    pointer-events: none;
+  }
+
+  input[type="search"]:focus::-webkit-search-cancel-button {
+    opacity: 0.3;
+    pointer-events: all;
+  }
+
+  input[type="search"].dark::-webkit-search-cancel-button {
+    filter: invert(1);
+  }
+
+  .inputField > form > button {
+    padding: 0.3rem;
+    border: none;
+    background: none;
+    font-size: 1.3rem;
+    /* border: 1px solid; */
+    margin-left: 0.3rem;
+    font-weight: bold;
+  }
+  .inputField > form > button :active {
+    transition: 0.1s transform ease-in;
+    transform: scale(0.7);
+  }
+  .inputField > form > button:hover {
+    cursor: pointer;
+  }
+}

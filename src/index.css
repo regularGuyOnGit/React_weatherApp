@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Bruno+Ace+SC&family=Dancing+Script&family=Honk&family=Lobster&family=Overpass:wght@100..900&family=Protest+Guerrilla&family=Teko:wght@700&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+:root{
+  --darkColor:  rgb(25, 25, 25);
+  --whiteColor : rgb(246, 245, 242)
+  --teko: "Teko", sans-serif;
+  --protestGorella: "Protest Guerrilla", sans-serif;
+  --overpass: "Overpass", sans-serif;
+  --lobster: "Lobster", sans-serif;
+  --honk: "Honk", system-ui;
+  --dancingScript: "Dancing Script", sans-serif;
+  --danger: rgb(205, 24, 24);
+  --safe: rgb(65, 109, 25);
+  --black: rgb(15, 15, 15);
+
+}
